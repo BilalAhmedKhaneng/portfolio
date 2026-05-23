@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal Ahmad | Full Stack Software Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN for modern grid-based and utility layout -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for professional development icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans antialiased selection:bg-teal-500 selection:text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-teal-400">&lt;BilalAhmad /&gt;</a>
+            <div class="space-x-6 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-teal-400 transition">About</a>
+                <a href="#projects" class="hover:text-teal-400 transition">Projects</a>
+                <a href="#skills" class="hover:text-teal-400 transition">Skills</a>
+                <a href="#interactive" class="hover:text-teal-400 transition">Interactive UI</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="max-w-6xl mx-auto px-6 py-24 md:py-32 flex flex-col items-start gap-6">
+        <span class="text-teal-400 font-mono tracking-widest uppercase text-sm">Hi, my name is</span>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-white">
+            Bilal Ahmad.
+        </h1>
+        <h2 class="text-4xl md:text-6xl font-bold tracking-tight text-gray-400">
+            I build scalable full-stack applications.
+        </h2>
+        <p class="max-w-xl text-lg text-gray-400 leading-relaxed">
+            I am a fresh Software Engineer specializing in creating robust backends, slick frontends, and optimizing web architectures. Ready to bring clean, production-ready code to engineering teams.
+        </p>
+        
+        <!-- Quick Contact Badges -->
+        <div class="flex flex-wrap gap-4 text-xs font-mono text-gray-400 my-2">
+            <span class="flex items-center gap-2 bg-gray-900 border border-gray-800 px-3 py-1.5 rounded-full">
+                <i class="fas fa-envelope text-teal-400"></i> bilalahmedkhan.eng@gmail.com
+            </span>
+            <span class="flex items-center gap-2 bg-gray-900 border border-gray-800 px-3 py-1.5 rounded-full">
+                <i class="fas fa-phone text-teal-400"></i> +923118158585
+            </span>
+        </div>
+
+        <!-- Action Links -->
+        <div class="flex flex-wrap gap-4 pt-4">
+            <a href="https://www.linkedin.com/in/bilal-ahmad-57ab7040b" target="_blank" class="px-6 py-3 bg-teal-500 hover:bg-teal-400 text-gray-950 font-semibold rounded-lg shadow-lg shadow-teal-500/20 transition flex items-center gap-2">
+                <i class="fab fa-linkedin"></i> Connect on LinkedIn
+            </a>
+            <a href="https://github.com/BilalAhmedKhaneng" target="_blank" class="px-6 py-3 border border-gray-700 hover:border-teal-400 text-gray-300 hover:text-teal-400 font-semibold rounded-lg transition flex items-center gap-2">
+                <i class="fab fa-github"></i> GitHub Profile
+            </a>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900">
+        <h2 class="text-3xl font-bold mb-12 text-white flex items-center gap-3">
+            <span class="text-teal-400 font-mono text-xl">01.</span> Featured Projects
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project Card 1: Full Stack Platform -->
+            <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-gray-700 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="far fa-folder text-3xl text-teal-400"></i>
+                        <div class="space-x-3 text-gray-400 text-lg">
+                            <a href="https://github.com/BilalAhmedKhaneng" target="_blank" class="hover:text-teal-400"><i class="fab fa-github"></i></a>
+                            <a href="#" class="hover:text-teal-400"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">E-Commerce Full Stack Platform</h3>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Developed and deployed a responsive application featuring secure authentication, optimized searching/filtering logic, and full database integration to drop query latency.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-teal-400/80">
+                    <span>Node.js</span>
+                    <span>React</span>
+                    <span>MongoDB</span>
+                    <span>Tailwind CSS</span>
+                </div>
+            </div>
+
+            <!-- Project Card 2: Network Simulation -->
+            <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-gray-700 transition flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="far fa-folder text-3xl text-teal-400"></i>
+                        <div class="space-x-3 text-gray-400 text-lg">
+                            <a href="https://github.com/BilalAhmedKhaneng" target="_blank" class="hover:text-teal-400"><i class="fab fa-github"></i></a>
+                            <a href="#" class="hover:text-teal-400"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Smart Home Network Simulator</h3>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Architected structural network topologies in Cisco Packet Tracer. Optimized data throughput, packet routing workflows, and tested threat defense configurations across IoT devices.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-teal-400/80">
+                    <span>Packet Tracer</span>
+                    <span>Network Design</span>
+                    <span>IoT Protocols</span>
+                    <span>Security Systems</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900">
+        <h2 class="text-3xl font-bold mb-12 text-white flex items-center gap-3">
+            <span class="text-teal-400 font-mono text-xl">02.</span> Technical Stack
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fab fa-js text-yellow-500 text-xl"></i>
+                <span class="font-medium">JavaScript</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fab fa-node text-green-500 text-xl"></i>
+                <span class="font-medium">Node.js</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fab fa-react text-blue-400 text-xl"></i>
+                <span class="font-medium">React</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fas fa-database text-purple-400 text-xl"></i>
+                <span class="font-medium">SQL & NoSQL</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fab fa-git-alt text-orange-500 text-xl"></i>
+                <span class="font-medium">Git & GitHub</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fas fa-network-wired text-cyan-400 text-xl"></i>
+                <span class="font-medium">Packet Tracer</span>
+            </div>
+            <div class="bg-gray-900/50 border border-gray-850 p-4 rounded-lg flex items-center gap-3">
+                <i class="fas fa-search text-teal-400 text-xl"></i>
+                <span class="font-medium">SEO Engineering</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Component Section -->
+    <section id="interactive" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900 mb-20">
+        <h2 class="text-3xl font-bold mb-4 text-white flex items-center gap-3">
+            <span class="text-teal-400 font-mono text-xl">03.</span> Interactive UI Component
+        </h2>
+        <p class="text-gray-400 text-sm mb-8 max-w-xl">
+            This interactive upload zone built with raw JavaScript events highlights clean state management and real-time DOM updates directly to recruiters.
+        </p>
+
+        <!-- Drag and Drop Widget Container -->
+        <div class="max-w-xl bg-gray-900 border-2 border-dashed border-gray-800 rounded-xl p-8 text-center hover:border-teal-500/50 transition-colors duration-300" id="drop-zone">
+            <div id="upload-view" class="space-y-4">
+                <div class="w-16 h-16 bg-gray-800/80 rounded-full flex items-center justify-center mx-auto text-teal-400 text-xl shadow-inner">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <div>
+                    <p class="text-base font-semibold text-white">Drag & drop your file here</p>
+                    <p class="text-xs text-gray-500 mt-1">Supports PDF, ZIP, PNG up to 10MB</p>
+                </div>
+                <button class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs font-semibold rounded-md border border-gray-700 transition">
+                    Browse Files
+                </button>
+            </div>
+
+            <!-- Success/Feedback View -->
+            <div id="success-view" class="hidden space-y-4 py-4 animate-fade-in">
+                <div class="w-16 h-16 bg-teal-500/10 rounded-full flex items-center justify-center mx-auto text-teal-400 text-xl">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div>
+                    <p class="text-base font-semibold text-white" id="file-name">File Selected!</p>
+                    <p class="text-xs text-teal-400 font-mono mt-1">DOM event state capture successful</p>
+                </div>
+                <button onclick="resetUploader()" class="text-xs text-gray-500 hover:text-gray-300 underline transition">
+                    Clear and reset
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-900 bg-gray-950/40 py-8 text-center text-xs text-gray-600 font-mono">
+        <p>Portfolio Project © 2026 Bilal Ahmad. Hosted live on GitHub.</p>
+    </footer>
+
+    <!-- JavaScript for Dynamic Upload Sandbox Handling -->
+    <script>
+        const dropZone = document.getElementById('drop-zone');
+        const uploadView = document.getElementById('upload-view');
+        const successView = document.getElementById('success-view');
+        const fileNameDisplay = document.getElementById('file-name');
+
+        // Clean up standard system interruptions
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        // Active style triggers
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                dropZone.classList.add('border-teal-400', 'bg-gray-850/30');
+            }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                dropZone.classList.remove('border-teal-400', 'bg-gray-850/30');
+            }, false);
+        });
+
+        // Event interception for mock processing
+        dropZone.addEventListener('drop', (e) => {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            
+            if(files.length > 0) {
+                displaySuccess(files[0].name);
+            }
+        });
+
+        function displaySuccess(filename) {
+            uploadView.classList.add('hidden');
+            successView.classList.remove('hidden');
+            fileNameDisplay.textContent = `Successfully Read: ${filename}`;
+        }
+
+        function resetUploader() {
+            successView.classList.add('hidden');
+            uploadView.classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
